@@ -18,3 +18,7 @@ nav {
     text-decoration: none;
     margin-left: 10px;
   }
+.titleIcon {
+  width: 32px;
+  height: 32px;
+}
