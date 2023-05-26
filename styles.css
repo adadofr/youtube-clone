@@ -1,0 +1,20 @@
+nav {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  background-color: blanchedalmond;
+  align-items: center;
+}
+
+.logo a {
+    color: black; /* Set your desired logo text color */
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: bolder;
+  }
+
+  .menu-items a {
+    color:cadetblue; /* Set your desired menu item text color */
+    text-decoration: none;
+    margin-left: 10px;
+  }
