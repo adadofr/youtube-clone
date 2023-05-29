@@ -1,24 +1,121 @@
 nav {
-  height: 50px;
+  height: auto;
   display: flex;
-  justify-content: space-between;
-  background-color: blanchedalmond;
+  flex-direction: column;
+  width: 100%;
   align-items: center;
 }
 
-.logo a {
-    color: black; /* Set your desired logo text color */
-    font-size: 24px;
-    text-decoration: none;
-    font-weight: bolder;
-  }
+.topBar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
 
-  .menu-items a {
-    color:cadetblue; /* Set your desired menu item text color */
-    text-decoration: none;
-    margin-left: 10px;
-  }
+.rightContent {
+  display: flex;
+  width: 180px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding-right: 15px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+}
+
+.burgerMenu {
+  padding: 0 10px;
+}
+
+.logo a svg {
+  height: 24px;
+}
+
+.search-bar {
+  position: relative;
+  border: solid 1px #c0c0c0;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow: hidden;
+  padding: 5px;
+  width: 20%;
+}
+
+.search-bar input {
+  border: none;
+  padding: 3px 12px;
+  padding-right: 50px;
+  border: none;
+}
+
+.search-bar button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 40px;
+  height: 100%;
+  padding: 0;
+  border: none;
+  border-left: #c0c0c0;
+  background-color: #ececec;
+}
+
+.search-bar button svg {
+  width: 18px;
+  padding: 0 10px;
+}
+
+.loginButton {
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  padding: 3px 8px;
+  border: solid 1px #4285f4;
+  border-radius: 20px;
+  color: #4285f4;
+}
+
+.loginButton svg {
+  fill: #4285f4;
+}
+
+.menu-items a {
+  color: cadetblue;
+  /* Set your desired menu item text color */
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.menu-items {
+  width: 100%;
+}
+
 .titleIcon {
   width: 32px;
   height: 32px;
+}
+
+.sectionTitle {
+  display: flex;
+  height: 32px;
+  flex-direction: row;
+  align-items: center;
+}
+
+h2 {
+  margin: 0;
+}
+
+section {
+  border-top: #606060 2px solid;
 }
