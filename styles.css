@@ -105,6 +105,23 @@ nav {
   height: 32px;
 }
 
+.topVideos
+{
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-template-rows: 200px 200px;
+  gap: 30px;
+  margin-left: 50px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+section
+{
+  padding: 0.5em;
+}
+
+
+
 .sectionTitle {
   display: flex;
   height: 32px;
